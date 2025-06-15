@@ -1,4 +1,4 @@
-describe(`Cenário 1: Testes de Login - ${Cypress.browser.name} - ${Cypress.isBrowser('headed') ? 'headed' : 'headless'}`, () => {
+describe(`Cenário 1: Testes de Login - ${Cypress.browser.name}`, () => {
   it('CT-01: Validar login com credenciais válidas', () => {
     cy.login('standard_user', 'secret_sauce');
 

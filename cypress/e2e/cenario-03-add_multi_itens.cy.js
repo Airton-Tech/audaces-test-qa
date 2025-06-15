@@ -1,5 +1,5 @@
 
-describe(`Cenário 3: Manipulação de Múltiplos Itens no Carrinho - ${Cypress.browser.name} - ${Cypress.isBrowser('headed') ? 'headed' : 'headless'}`, () => {
+describe(`Cenário 3: Manipulação de Múltiplos Itens no Carrinho - ${Cypress.browser.name}`, () => {
   beforeEach(() => {
     cy.login('standard_user', 'secret_sauce');
   });

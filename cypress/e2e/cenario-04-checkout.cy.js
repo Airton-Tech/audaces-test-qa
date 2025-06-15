@@ -1,5 +1,5 @@
 
-describe(`Cenário 4: Fluxo de Checkout - ${Cypress.browser.name} - ${Cypress.isBrowser('headed') ? 'headed' : 'headless'}`, () => {
+describe(`Cenário 4: Fluxo de Checkout - ${Cypress.browser.name}`, () => {
   beforeEach(() => {
     cy.login('standard_user', 'secret_sauce');
    });

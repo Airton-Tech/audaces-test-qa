@@ -1,4 +1,4 @@
-describe(`Cenário 2: Funcionalidade de Adicionar ao Carrinho - ${Cypress.browser.name} - ${Cypress.isBrowser('headed') ? 'headed' : 'headless'}`, () => {
+describe(`Cenário 2: Funcionalidade de Adicionar ao Carrinho - ${Cypress.browser.name}`, () => {
   beforeEach(() => {
     cy.login('standard_user', 'secret_sauce');
   });
