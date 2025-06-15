@@ -1,7 +1,7 @@
 # 🧪 Projeto Cypress - Testes Automatizados (Audaces)
 
-Este projeto contém a automação de testes do site [SauceDemo](https://www.saucedemo.com) utilizando Cypress, com execução em múltiplos navegadores (Chrome e Edge) e geração de relatório único.
-Os cenários de testes estão na pasta 
+- Este projeto contém a automação de testes do site [SauceDemo](https://www.saucedemo.com) utilizando Cypress, com execução em múltiplos navegadores (Chrome e Edge) e geração de relatório único.
+- Os cenários de testes estão na pasta `Plano de Testes` do repositório.
 
 ---
 
@@ -82,7 +82,6 @@ cypress/
 ├── reports/              # Relatórios e arquivos .json gerados
 │   └── html/             # Relatório final em HTML
 ├── support/              # Configurações globais dos testes
-├── fixtures/             # Dados mockados (opcional)
 ```
 
 ---
@@ -92,6 +91,7 @@ cypress/
 - [Cypress](https://www.cypress.io/)
 - [Mochawesome](https://github.com/adamgruber/mochawesome)
 - [Cypress Mochawesome Reporter](https://github.com/LironEr/cypress-mochawesome-reporter)
+- [Cypress Mochawesome Generator (marge)](https://github.com/adamgruber/mochawesome-report-generator)
 
 ---
 

@@ -4,7 +4,7 @@ describe(`Cenário 3: Manipulação de Múltiplos Itens no Carrinho - ${Cypress.
     cy.login('standard_user', 'secret_sauce');
   });
 
-  it('CT-01: Adicionar 2 produtos, remover um e validar a quantidade', () => {
+  it('CT-07: Adicionar 2 produtos, remover um e validar a quantidade', () => {
     // Adiciona dois produtos
     cy.get('[data-test="add-to-cart-sauce-labs-bolt-t-shirt"]').click();
     cy.get('[data-test="add-to-cart-sauce-labs-bike-light"]').click();
@@ -25,7 +25,7 @@ describe(`Cenário 3: Manipulação de Múltiplos Itens no Carrinho - ${Cypress.
     cy.contains('Sauce Labs Bike Light').should('be.visible');
   });
 
-  it('CT-02: Adicionar 3 produtos, remover um e validar a quantidade', () => {
+  it('CT-08: Adicionar 3 produtos, remover um e validar a quantidade', () => {
     // Adiciona dois produtos
     cy.get('[data-test="add-to-cart-sauce-labs-backpack"]').click();
     cy.get('[data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]').click();
@@ -48,7 +48,7 @@ describe(`Cenário 3: Manipulação de Múltiplos Itens no Carrinho - ${Cypress.
     cy.contains('Sauce Labs Fleece Jacket').should('be.visible');
   });
 
-  it('CT-03: Adicionar 3 produtos, remover todos e validar que o carrinho está vazio', () => {
+  it('CT-09: Adicionar 3 produtos, remover todos e validar que o carrinho está vazio', () => {
     // Adiciona dois produtos
     cy.get('[data-test="add-to-cart-sauce-labs-backpack"]').click();
     cy.get('[data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]').click();

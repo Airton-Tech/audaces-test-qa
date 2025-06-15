@@ -4,7 +4,7 @@ describe(`Cenário 4: Fluxo de Checkout - ${Cypress.browser.name} - ${Cypress.is
     cy.login('standard_user', 'secret_sauce');
    });
 
-  it('CT-01: Deve adicionar um produto ao carrinho e finalizar a compra com sucesso', () => {
+  it('CT-10: Deve adicionar um produto ao carrinho e finalizar a compra com sucesso', () => {
     // Adiciona um produto
     cy.get('[data-test="add-to-cart-sauce-labs-bolt-t-shirt"]').click();
 
@@ -62,7 +62,7 @@ describe(`Cenário 4: Fluxo de Checkout - ${Cypress.browser.name} - ${Cypress.is
     cy.get('.complete-header').should('have.text', 'Thank you for your order!');
   });
 
-  it('CT-02: Deve adicionar três produtos ao carrinho e finalizar a compra com sucesso', () => {
+  it('CT-11: Deve adicionar três produtos ao carrinho e finalizar a compra com sucesso', () => {
     // Adiciona três produtos
     cy.get('[data-test="add-to-cart-sauce-labs-backpack"]').click();
     cy.get('[data-test="add-to-cart-sauce-labs-bolt-t-shirt"]').click();
